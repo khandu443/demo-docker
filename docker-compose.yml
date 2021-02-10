@@ -9,7 +9,7 @@ services:
       - "2181:2181"
   kafka:
     hostname: kafka
-    image: kk
+    image: imagename
     depends_on:
       - zookeeper
     ports:
